@@ -1,0 +1,113 @@
+body{
+   margin: 0;
+   font-family: Inter;
+}
+
+.lesson{
+   background: linear-gradient(90deg, rgba(31,125,234,0.1) 0%, rgba(195,32,193,0.1) 100%);
+   border-radius: 50px;
+   padding: 37px 0 37px 0;
+   margin-bottom: 50px;
+}
+
+main{
+   text-align: center;
+}
+
+.lesson__section{
+   display: flex;
+   justify-content: center;
+}
+
+.header{
+   height: 320px;
+}
+
+.lesson__section__elem{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.lesson__section__elem:hover{
+   animation: hovering 0.5s 1 forwards;
+   cursor: pointer;
+}
+
+@keyframes hovering{
+   from {
+      transform: translate(0, 0);
+   }
+   to{
+      transform: translate(0, -5px);
+   }
+}
+
+#section_for_prices{
+   padding: 0 20% 0 20%;
+}
+
+#price{
+   margin: 20px 0 20px 0;
+}
+
+.button{
+   width: 250px;
+   height: 60px;
+   font-size: 24px;
+}
+
+.picture_text img{
+   width: 61%;
+   height: auto;
+}
+
+#grad{
+   position: absolute;
+   background: linear-gradient(90deg, #1f7eeac9 0%, #c320c0b1 100%);
+   filter:blur(90px);
+   z-index: -1;
+   width: 50vw;
+   height: 50vw;
+   transform: translate(80%, -80%);
+   border-radius: 50%;
+}
+
+.svg_plus_text span{
+   font-size: 16px;
+   font-family: Bellota Text;
+}
+
+.svg_plus_text{
+   width: 50%;
+   display: flex;
+   align-items: center;
+}
+.svg_plus_text span{
+   width: 100%;
+   padding-left: 10px;
+}
+
+.picture_text h1{
+   text-align: left;
+}
+
+.picture_text .after_h1{
+   text-align: left;
+   margin-bottom: 0;
+}
+
+.picture_text{
+   text-align: left;
+   margin-bottom: 100px;
+}
+
+#picture_for_second_cont{
+   padding-right: 30px;
+}
+
+#special_picture_for_second_cont{
+   position: absolute;
+   height: 20vw;
+   width: auto;
+   transform: translate(-280%, 25%);
+}

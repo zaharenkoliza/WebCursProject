@@ -1,0 +1,75 @@
+body{
+   --swiper-navigation-size: 76px;
+}
+.swiper {
+   width: auto;
+   height: 400px;
+   margin-bottom: 180px;
+}
+
+.swiper-slide{
+   width: 70% !important;
+}
+
+.swiper-slide figure
+{
+	display: flex; 
+   justify-content: center;
+}
+
+.swiper-slide figure figcaption
+{
+	font-weight: 300;
+	margin-left: 15px;
+	font-size: 13px;
+}
+
+.swiper-slide figure img
+{
+	width: 50%;
+}
+
+.swiper-button-prev{
+   margin-left: 70%;
+   margin-top: 300px;
+}
+
+.swiper-button-next{
+   margin-right: 20%;
+   margin-top: 100px;
+}
+
+.swiper-button-prev.another_placing{
+   margin-left: 20%;
+}
+
+.swiper-button-next.another_placing{
+   margin-right: 70%;
+}
+
+.another_placing p{
+   text-align: right;
+   padding-right: 15px;
+}
+
+.another_placing h2{
+   text-align: right;
+   padding-right: 15px;
+}
+
+.after_h1{
+   margin-bottom: 100px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+background: linear-gradient(0deg, rgba(31,125,234,1) 0%, rgba(195,32,193,1) 100%); /* Градиентный фон */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 430px) {
+   .swiper-slide{
+      display: flex !important;
+      flex-direction: column ;
+   }
+}

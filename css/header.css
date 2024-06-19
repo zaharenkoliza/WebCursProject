@@ -1,0 +1,36 @@
+.menu{
+   position: absolute;
+   border-radius: 50px;
+   border: 3px solid #1F7DEA;
+   position: absolute;
+   width: 70%;
+   margin-left: 15%;
+   margin-right: 15%;
+   display: flex;
+   justify-content: space-around;
+   vertical-align: middle;
+   height: 70px;
+   font-family: Inter;
+}
+
+.header{
+   height: 25vh;
+}
+
+.menu li{
+   height: 70px;
+   display: flex;
+   align-items: center;
+}
+
+a{
+   text-decoration: none;
+}
+
+a.active{
+   color: inherit;
+}
+
+a:visited{
+   color: inherit;
+}

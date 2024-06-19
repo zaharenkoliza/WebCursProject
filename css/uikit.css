@@ -1,0 +1,84 @@
+body{
+   font-family: Inter;
+   min-width: 100vw;
+   overflow-x:hidden; 
+}
+
+.button{
+   background: linear-gradient(90deg, rgba(31,125,234,1) 0%, rgba(195,32,193,1) 50%);
+   background-size: 200% 200%;
+   border: 0;
+   border-radius: 100px;
+   text-align: center;
+   color: white;
+   margin-right: 10px;
+}
+
+.button:hover{
+   animation: gradientAnimation 5s ease infinite;
+   cursor: pointer;
+}
+
+.text_16{
+   font-size: 16px;
+}
+
+.text_24{
+   font-size: 24px;
+}
+
+.text_60{
+   font-size: 60px;
+   font-weight: Bold;
+}
+
+.bellota_typeface{
+   font-family: Bellota Text;
+}
+
+@keyframes gradientAnimation {
+   0% {
+      background-position: 0% 50%; /* Начальная позиция градиента */
+  }
+  50% {
+      background-position: 100% 50%; /* Положение градиента в середине анимации */
+  }
+  100% {
+      background-position: 0% 50%; /* Конечная позиция градиента */
+  }
+}
+
+h1{
+   text-align: center;
+   background: linear-gradient(90deg, rgba(31,125,234,1) 0%, rgba(195,32,193,1) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 60px;
+   font-weight: Semi-Bold;
+   margin-bottom: 0px;
+   font-family: Inter;
+}
+
+.picture_text{
+   display: flex;
+   justify-content: space-around;
+}
+
+main{
+   margin: 100px 20% 0 20%;
+}
+
+h2{
+   font-size: 32px;
+   font-family: Inter;
+}
+
+.after_h1{
+   font-size: 40px;
+   color: #2877E7;
+   text-align: center;
+   margin-top: 0px;
+   font-family: Inter;
+   font-weight: 200;
+   transform: translate(0, -10px);
+}

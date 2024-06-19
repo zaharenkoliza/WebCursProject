@@ -1,0 +1,23 @@
+.picture_text.right div{
+   margin-left: 3vw;
+}
+
+.picture_text.left div{
+   margin-right: 3vw;
+}
+
+.picture_text div p{
+   padding-bottom: 10px;
+}
+
+.picture_text div h2{
+   margin-top: 100px;
+}
+
+.picture_text{
+   margin-bottom: 100px;
+}
+
+.picture_text p{
+   font-family: Bellota Text;
+} 
