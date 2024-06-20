@@ -29,15 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         // Закрыть текстовый файл
         fclose($f);
-
-        // Открыть файл для чтения и прочитать содержимое
-        $f = fopen("textfile.txt", "r");
-        if ($f) {
-            echo nl2br(fread($f, filesize("textfile.txt")));
-            fclose($f);
-        } else {
-            echo "Ошибка открытия файла для чтения.";
-        }
     } else {
         echo "Ошибка открытия файла для записи.";
     }
