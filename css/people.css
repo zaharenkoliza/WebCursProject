@@ -21,3 +21,19 @@
 .picture_text p{
    font-family: Bellota Text;
 } 
+
+@media (max-width: 430px){
+   .picture_text{
+      flex-direction: column;
+   }
+   .picture_text img{
+      width: 100%;
+   }
+
+   .picture_text div h2{
+      margin-top: 30px;
+   }
+   .no_photo{
+      display: none;
+   }
+}

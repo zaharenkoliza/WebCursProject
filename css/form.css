@@ -31,6 +31,7 @@
    right: 40px;
    /* transform: translate(400%, -28vh); */
    cursor: pointer;
+   z-index: 3;
 }
 
 .popup-overlay{
@@ -138,4 +139,17 @@ form{
    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
    border-radius: 10px;
    background-color: #f9f9fd;
+ }
+
+ @media (max-width: 430px){
+   .popup{
+      width: 90%;
+      /* max-height: 90vh; */
+   }
+   /* .popup-content{
+      height: calc(70vh - 60px);
+   } */
+   .popup-content h2{
+      font-size: 23px;
+   }
  }

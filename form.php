@@ -47,7 +47,7 @@
         <label>Класс обучения</label>
     </div>
     <div class="placeholder-container">
-        <input type="text" class='comment' placeholder=" " />
+        <input type="textarea" class='comment' placeholder=" " />
         <label>Комментарии</label>
     </div>
          <button class='button' type='submit' onclick="handleForm(0)">Записаться</button>
@@ -81,7 +81,7 @@
         <label>Класс обучения</label>
     </div>
     <div class="placeholder-container">
-        <input type="text" name='comment' placeholder=" " />
+        <input type="textarea" name='comment' placeholder=" " />
         <label>Комментарии</label>
     </div>
     <button class='button' type='submit' onclick="handleForm(1)">Записаться</button>

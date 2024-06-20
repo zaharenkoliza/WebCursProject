@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="../css/people.css">
+<link rel="stylesheet" href="../css/uikit.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
       <div class='header'></div>
       <h1>ВПЕЧАТЛЕНИЯ</h1>
@@ -19,7 +21,7 @@
          <h2>Маргарита</h2>
          <p>Если не&nbsp;понятно, могу спросить даже тупой вопрос. На&nbsp;уроках классная атмосфера, я&nbsp;быстро прошла материал, что был непонятен. Из&nbsp;5&nbsp;учителей математики вы&nbsp;самая лучшая^^</p>
             </div>
-            <img src="../img/people_2.svg" alt="">
+            <img class='no_photo' src="../img/people_2.svg" alt="">
       </div>
 </main>
 </body>

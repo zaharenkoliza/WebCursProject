@@ -154,26 +154,33 @@ details[open] summary ~ *{
    height: 40px;
 }
 
-@media (min-width: 0px) and (max-width: 430px) {
+@media (max-width: 430px) {
    .main_section{
    height: 100vh;
    background-size: cover;
    background-position: 60%;
    }
    #grad{
-      transform: translate(50%, 150%);
+      filter: blur(2rem);
+      width: 100%;
+      height: 100%;
    }
-   #label{
+   /* #label{
       transform: translate(50%, 150%);
-   }
+   } */
+    #grad_label{
+      width: fit-content;
+      height: max-content;
+      transform: translate(20%, 100%);
+    }
    #label h1{
       font-size: 34px;
    }
    #label p{
       font-size: 16px;
    }
-   .menu{
-      display: none;
+   .accordions{
+      margin: 70px 10% 0 10%;
    }
 }
 
@@ -181,10 +188,6 @@ details[open] summary ~ *{
    .main_section {
        height: 500px;
        background-size: cover;
-   }
-
-   .menu{
-      display: none;
    }
 }
 

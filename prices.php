@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>Web</title>
-      <link rel="stylesheet" href="../css/prices.css">
-      <link rel="stylesheet" href="../css/header.css">
-      <link rel="stylesheet" href="../css/uikit.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-   </head> 
+   <link rel="stylesheet" href="../css/prices.css">
 
    <body>
    <div class='header'></div>
@@ -65,11 +51,11 @@
          <p class='text_16 bellota_typeface'>Выберите предмет</p>
          <div class='lesson__section'>
          <div class='lesson__section__elem info' >
-               <img src="../img/ege_pressed.svg" alt="">
+               <img src="../img/info_pressed.svg" alt="">
                <p>Информатика</p>
             </div>
             <div class='lesson__section__elem math' >
-               <img src="../img/vpr_enabled.svg" alt="">
+               <img src="../img/math_enabled.svg" alt="">
                <p>Математика</p>
             </div>
          </div>

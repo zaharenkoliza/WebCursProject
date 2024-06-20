@@ -2,6 +2,11 @@ body{
    font-family: Inter;
    min-width: 100vw;
    overflow-x:hidden; 
+   margin: 0;
+}
+
+a {
+   color: inherit;
 }
 
 .button{
@@ -10,7 +15,7 @@ body{
    border: 0;
    border-radius: 100px;
    text-align: center;
-   color: white;
+   color: white !important;
    margin-right: 10px;
 }
 
@@ -81,4 +86,23 @@ h2{
    font-family: Inter;
    font-weight: 200;
    transform: translate(0, -10px);
+}
+
+@media (max-width: 430px){
+   h1{
+      font-size: 34px;
+   }
+   .after_h1{
+      font-size: 20px;
+   }
+   .picture_text{
+      flex-direction: column;
+   }
+   main{
+      margin: 30px 10% 0 10%;
+   }
+
+   h2{
+      font-size: 24px;
+   }
 }

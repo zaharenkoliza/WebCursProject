@@ -67,12 +67,33 @@ h1{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   align-items: left;
+}
+
+.two__subject, .two__name{
+   text-align: left;
+   padding-left: 15%;
+   padding-right: 15%;
+}
+
+.two__name{
+   font-size: 12px;
+   font-family: Bellota Text;
 }
 
 .two__subject{
-   font-size: large;
-   margin-bottom: 10px;
+   font-size: 16px;
+   font-weight: normal;
+   margin-bottom: 6px;
+}
+
+.two__name img{
+   transform: translate(0, 20%);
+   padding-right: 3%;
+}
+
+.two.full{
+   background-color: #FFD6FE;
 }
 
 .newWeek{
@@ -103,9 +124,29 @@ h1{
 }
 
 .hidden__table{
-   display: none;
+   display: none !important;
 }
 
 .hidden__unabled{
    display: block;
+}
+
+#new-container{
+   display: flex;
+   flex-direction: column;
+}
+
+#select_cont{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+@media (max-width: 430px){
+   main{margin: 0 !important;}
+   /* .table-schedule__timemark{
+      width: 30%;
+      left: 0;
+   } */
+
 }
