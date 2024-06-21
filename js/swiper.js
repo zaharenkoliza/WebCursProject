@@ -1,5 +1,4 @@
 const swiper = new Swiper('.swiper', {
-	// Optional parameters
 	direction: 'horizontal',
 	loop: true,
 	effect: 'coverflow',
@@ -33,16 +32,13 @@ const swiper = new Swiper('.swiper', {
  });
 
  function initializeSwiper() {
- // Проверяем ширину экрана и отключаем Swiper на мобильных устройствах
  if (window.innerWidth <= 1000) {
 	swiper.destroy(true, true);
  }
  }
 
- // Инициализируем Swiper при загрузке страницы
 initializeSwiper();
 
-// Перезапускаем Swiper при изменении размера окна
 window.addEventListener('resize', function() {
   initializeSwiper();
 });

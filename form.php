@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-   <head>
-   <link rel="stylesheet" href="../css/uikit.css">
-   <link rel="stylesheet" href="../css/form.css">
-   </head>
-
+<link rel="stylesheet" href="../css/form.css">
    <body>
       <div class='popup-overlay'>
       <section class='popup'>

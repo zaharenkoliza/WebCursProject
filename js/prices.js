@@ -75,9 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
        }
    }
    
-   // Initial check
    moveElement();
    
-   // Check on resize
    window.addEventListener('resize', moveElement);
 });

@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>Curs</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../css/study.css">
-      <link rel="stylesheet" href="../css/header.css">
-      <link rel="stylesheet" href="../css/uikit.css">
-      <link rel="stylesheet" href="../css/swiper-bundle.min.css"/>
-      <script src="../js/swiper-bundle.min.js"></script>
-   </head>
+
+<link rel="stylesheet" href="../css/study.css">
+<link rel="stylesheet" href="../css/swiper-bundle.min.css"/>
+<script src="../js/swiper-bundle.min.js"></script>
 
    <body>
       <div class='header'></div>

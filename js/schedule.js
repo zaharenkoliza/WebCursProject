@@ -4,7 +4,7 @@ const bigTable = document.getElementsByTagName('table')[0];
 const bigTable2 = document.getElementsByTagName('table')[1];
 const newTable = bigTable.cloneNode(true);
 newTable.getElementsByTagName('thead')[0].remove();
-// con
+
 const f = newTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
    for (let i = 0; i < f.length; i++){
       const ff = f[i].getElementsByTagName('th');
@@ -14,7 +14,6 @@ const f = newTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
       }
    }
 document.body.appendChild(newTable);
-// Находим все элементы с классом 'selected-item'
 const selectedItems1 = bigTable.querySelectorAll('.table-schedule__td');
 const selectedItems2 = bigTable2.querySelectorAll('.table-schedule__td');
 for (let j = 0; j < 14; j++){
@@ -29,10 +28,6 @@ for (let j = 0; j < 14; j++){
          spisok.push(selectedItems2[i].cloneNode(true));
       }
    }
-   // if (number>7){
-   // for(let i=number-1; i<selectedItems.length; i+=7){
-   //    spisok.push(selectedItems[i]);
-   // }
    number++;
    pip.push(spisok);
 }
@@ -78,10 +73,8 @@ else{
 }
 }
 
-// Добавляем обработчик события change к элементу select
 newDiv.addEventListener('change', updateContent);
 
-// Инициализируем содержимое при загрузке страницы
 updateContent();
 
 function checkScreenWidth() {
@@ -99,7 +92,6 @@ function checkScreenWidth() {
    }
 }
 
-// Проверка ширины экрана при загрузке страницы
 checkScreenWidth();
 
 window.addEventListener('resize', checkScreenWidth);

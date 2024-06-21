@@ -1,5 +1,5 @@
-   <link rel="stylesheet" href="../css/footer.css">
-   <body>
+<link rel="stylesheet" href="../css/footer.css">
+<body>
 <section class='footer'>
 <div id='footer__line'></div>
 <div class='footer__conteiner'>

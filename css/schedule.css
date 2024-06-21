@@ -22,8 +22,6 @@ h1{
 }
 
 .table-schedule__th{
-   /* width: 140%;
-   height: 50px; */
    width: 12.5%;
    height: 50px;
    background-color: #FFECFF;
@@ -37,8 +35,6 @@ h1{
    height: 100px;
    background-color: #FFECFF;
    border-radius: 20px;
-   /* transform: translate(-100%, 0px);
-   overflow: visible; */
 }
 
 .table-schedule__timemark{
@@ -46,7 +42,6 @@ h1{
    height: 50px;
    background-color: #FFECFF;
    border-radius: 20px;
-   /* transform: translate(-150px, 0px); */
 }
 
 .one{
@@ -163,7 +158,6 @@ select {
    cursor: pointer;
 }
 
-/* Убираем стрелку для IE */
 select::-ms-expand {
    display: none;
 }
