@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!-- ssh -L 5432:localhost:5432 s335141@helios.cs.ifmo.ru -p 2222 -->
-<!-- INSERT INTO lessons (data_start, data_end, id_student, subject) values ('2024-06-03 14:00:00', '2024-06-03 16:00:00', 1, 'Информатика'); 
- rKux7MCx0SKISIWe-->
 <?php
 
 $host = 'localhost';

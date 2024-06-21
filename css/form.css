@@ -22,7 +22,7 @@
    height: 50px;
    margin-bottom: 20px;
    flex-shrink: 0;
-   margin: 0auto;
+   /* margin: 0auto; */
 }
 
 .popup img{
@@ -31,7 +31,7 @@
    right: 40px;
    /* transform: translate(400%, -28vh); */
    cursor: pointer;
-   z-index: 3;
+   z-index: 6;
 }
 
 .popup-overlay{
@@ -42,7 +42,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
-  z-index: 2;
+  z-index: 5;
 }
 
 .popup input{
@@ -144,12 +144,20 @@ form{
  @media (max-width: 430px){
    .popup{
       width: 90%;
-      /* max-height: 90vh; */
+      max-height: 90%;
+      height: 90%;
    }
-   /* .popup-content{
-      height: calc(70vh - 60px);
-   } */
+   .popup-content{
+      height: auto;
+   }
    .popup-content h2{
       font-size: 23px;
+      margin-top: 40px;
+   }
+   .popup-content .button{
+      width: fit-content;
+   }
+   .popup-content.main .button{
+      width: 70%;
    }
  }

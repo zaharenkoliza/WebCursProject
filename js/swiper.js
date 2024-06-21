@@ -34,7 +34,7 @@ const swiper = new Swiper('.swiper', {
 
  function initializeSwiper() {
  // Проверяем ширину экрана и отключаем Swiper на мобильных устройствах
- if (window.innerWidth <= 640) {
+ if (window.innerWidth <= 1000) {
 	swiper.destroy(true, true);
  }
  }

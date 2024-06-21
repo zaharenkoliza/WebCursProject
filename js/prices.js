@@ -60,3 +60,24 @@ for(let i=0; i<5; i++){
       changeStatus(buttons[i], 'pressed');
    })
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+   const container = document.getElementsByClassName('picture_text')[0];
+   const picture = document.getElementsByClassName('picture')[0];
+   const content = document.getElementsByTagName('p');
+   
+   function moveElement() {
+       const viewportWidth = window.innerWidth;
+       if (viewportWidth <= 430) {
+           container.getElementsByTagName('div')[0].insertBefore(picture, content[1]);
+       } else {
+           container.appendChild(picture);
+       }
+   }
+   
+   // Initial check
+   moveElement();
+   
+   // Check on resize
+   window.addEventListener('resize', moveElement);
+});

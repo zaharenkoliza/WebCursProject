@@ -10,6 +10,7 @@ popup_buttons[3].addEventListener('click', () => showPopup(3));
  
 console.log(popupContents);
 function showPopup(number) {
+  document.body.style.overflow = 'hidden';
   popupOverlay.style.display = "block";
   popupContents[number].style.display = "flex";
   for (let i = 0; i<popupContents.length; i++){
@@ -21,6 +22,7 @@ function showPopup(number) {
  
 function hidePopup() {
   popupOverlay.style.display = "none";
+  document.body.style.overflow = 'auto';
 }
  
 popup.getElementsByTagName('img')[0].addEventListener('click', hidePopup);

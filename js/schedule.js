@@ -85,7 +85,7 @@ newDiv.addEventListener('change', updateContent);
 updateContent();
 
 function checkScreenWidth() {
-   const mediaQuery = window.matchMedia('(max-width: 430px)');
+   const mediaQuery = window.matchMedia('(max-width: 750px)');
    if (mediaQuery.matches) {
       bigTable.style.display = 'none';
       document.getElementsByClassName('newWeek')[0].style.display = 'none';

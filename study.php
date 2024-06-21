@@ -35,7 +35,7 @@
       <figcaption><h2>Преподаватель<br>у&nbsp;младших групп</h2><p class='text_16 bellota_typeface'>Благодаря опыту работы репетитором, меня взяли преподавателем программирования в&nbsp;детский центр &laquo;Учи.ру&raquo; для младших классов. Таким образом, у&nbsp;меня появилось пять групп малышариков, с&nbsp;которыми мы&nbsp;переживали вместе абсолютно разные эмоции, а&nbsp;главное&nbsp;&mdash; учились понимать базовые принципы программирования.</p></figcaption>
       </figure>
    </div>
-   <div class="swiper-slide">
+   <div id='slide1' class="swiper-slide">
       <figure><img src="../img/swiper1_1.png" alt="">
       <figcaption><h2>100 баллов на ЕГЭ</h2><p class='text_16 bellota_typeface'>Обучение в&nbsp;лицее с&nbsp;уклоном на&nbsp;математику и&nbsp;много часов подготовки к&nbsp;экзаменам не&nbsp;прошли даром, и&nbsp;кроме золотой медали после окончания 11&nbsp;класса, я&nbsp;получила ещё и&nbsp;значок за&nbsp;100 баллов за&nbsp;ЕГЭ по&nbsp;информатике. В&nbsp;сумме с&nbsp;остальными экзаменами получилось 286, а&nbsp;с&nbsp;достижениями&nbsp;&mdash; 300&nbsp;баллов.</p></figcaption></figure>
    </div>

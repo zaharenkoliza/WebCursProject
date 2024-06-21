@@ -112,24 +112,13 @@ main{
    transform: translate(-280%, 25%);
 }
 
-@media (max-width: 430px){
+@media (max-width: 750px){
    .picture_text img{
       width: 100%;
    }
    #special_picture_for_second_cont{
       display: none;
    }
-   /* .lesson {
-      border-radius: 20px;
-      padding: 20px 0;
-      margin-bottom: 20px;
-   } */
-
-   /* .lesson__section {
-      flex-direction: column;
-      align-items: center;
-   } */
-
    .lesson__section__elem {
       margin: 10px 0;
    }
@@ -151,5 +140,9 @@ main{
    
    .lesson__section__elem{
      margin: auto;
+   }
+
+   .header{
+      height: 100px;
    }
 }

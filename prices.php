@@ -14,7 +14,7 @@
                <span>Google Meets</span>
             </div>
          </div>
-         <img src="../img/prices_1.png" alt="">
+         <img class="picture" src="../img/prices_1.png" alt="">
       </section>
 
       <section class="picture_text">

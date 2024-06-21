@@ -6,7 +6,6 @@
    </head>
 
    <body>
-    <button onclick='showPopup(0)'></button>
       <div class='popup-overlay'>
       <section class='popup'>
          <img src="../img/to_close.svg" alt="">

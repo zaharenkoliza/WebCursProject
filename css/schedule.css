@@ -142,11 +142,28 @@ h1{
    padding-top: 20px;
 }
 
-@media (max-width: 430px){
+@media (max-width: 750px){
    main{margin: 0 !important;}
-   /* .table-schedule__timemark{
-      width: 30%;
-      left: 0;
-   } */
+}
 
+select {
+   display: inline-block;
+   width: 65%;
+   padding: 10px;
+   font-size: 14px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   background-color: white;
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=");
+   background-repeat: no-repeat;
+   background-position: right 10px center;
+   cursor: pointer;
+}
+
+/* Убираем стрелку для IE */
+select::-ms-expand {
+   display: none;
 }
